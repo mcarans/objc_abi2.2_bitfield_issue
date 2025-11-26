@@ -32,7 +32,7 @@ enum OOScanClass
 @public
 	unsigned short			universalID;			// used to reference the entity
 	
-	unsigned				isShip: 1,  // remove the : 1 and then tehre is no assertion failure
+	unsigned				isShip: 1,  // remove the : 1 and then there is no assertion failure
 							isStation: 1,
 							isPlayer: 1,
 							isWormhole: 1,
